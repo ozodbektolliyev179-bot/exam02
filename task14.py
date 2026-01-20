@@ -7,4 +7,4 @@ def find_pattern(items: list, pattern: str, match_type: str) -> list:
         return [item for item in items if pattern in item]
     else:
         return []
-print(find_pattern(["Ali", "Alisher", "Vali", "Aziz"], "A", "starts"))
+print(find_pattern(["Ali", "Alisher", "Vali", "Aziz"], "V", "starts"))
